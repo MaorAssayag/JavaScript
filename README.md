@@ -5,7 +5,7 @@
 # Games
  * flappyBird 
  * MineSweeper
- * spaceInvador
+ * SpaceInvador
  
 # Algorithems
   * Steering behavior
