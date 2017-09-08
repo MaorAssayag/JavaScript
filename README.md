@@ -14,9 +14,12 @@
 # Algorithems
   * Steering behavior
   * Traveling Salesperson - probality
-  * Fractal Tree - level 1
+  * Fractal Tree - simple & complex
+  * Fractal recursion visulization
+  * Circle Packing of users text input
   
 # Physics & Biology
   * PerlinNoise Flowfield
   * Lorentz System
+  * Simple mitosis system
   
