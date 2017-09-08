@@ -1,3 +1,4 @@
+![alt text](https://github.com/MaorAssayag/JavaScript/blob/master/p5.png)
 # About  
   * JavaScript with <a href="https://p5js.org">p5.js libray</a>
 
