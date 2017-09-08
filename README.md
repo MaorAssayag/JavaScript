@@ -1,11 +1,10 @@
 # JavaScript 
-  with p5.js libray https://p5js.org
-  <a href="https://p5js.org">p5.js libray</a>
+  * With <a href="https://p5js.org">p5.js libray</a>
 
-  with the guidance of The Code Train https://www.youtube.com/user/shiffman/featured
-  and the adjacent book - THE NATURE OF CODE http://natureofcode.com .
+  * With the guidance of <a href="https://www.youtube.com/user/shiffman/featured">The Code Train</a> youtube channel
+    and the adjacent book - <a href="http://natureofcode.com">THE NATURE OF CODE</a>.
 
-  Subjects covered range from the basics of programming languages like JavaScript (with p5.js) and Java (with Processing) to generative     algorithms like physics simulation, computer vision, and data visualization.
+    Subjects covered range from the basics of programming languages like JavaScript (with p5.js) and Java (with Processing) to generative     algorithms like physics simulation, computer vision, and data visualization.
   
 # Games
  * flappyBird 
