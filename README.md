@@ -12,11 +12,11 @@
  * SpaceInvador
  
 # Algorithems
-  * Steering behavior
+  * Steering behavior - user text input
   * Traveling Salesperson - probality
   * Fractal Tree - simple & complex
   * Fractal recursion visulization
-  * Circle Packing of users text input
+  * Circle Packing of users image shape input
   
 # Physics & Biology
   * PerlinNoise Flowfield
