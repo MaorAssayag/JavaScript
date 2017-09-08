@@ -21,5 +21,5 @@
 # Physics & Biology
   * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/PerlinNoise%20FlowField_JS">PerlinNoise Flowfield</a> 
   * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/LorentzSystemJS">Lorentz System</a> 
-  * Simple <a href="https://github.com/MaorAssayag/JavaScript/tree/master/MitosisSystem_JS">mitosis</a> system
+  * Simple <a href="https://github.com/MaorAssayag/JavaScript/tree/master/MitosisSystem_JS">Mitosis System</a> 
   
