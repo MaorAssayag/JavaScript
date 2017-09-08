@@ -4,7 +4,7 @@
   * With the guidance of <a href="https://www.youtube.com/user/shiffman/featured">The Code Train</a> youtube channel
     and the adjacent book - <a href="http://natureofcode.com">THE NATURE OF CODE</a>.
 
-    Subjects covered range from the basics of programming languages like JavaScript (with p5.js) and Java (with Processing) to generative     algorithms like physics simulation, computer vision, and data visualization.
+  * Subjects covered range from the basics of programming languages like JavaScript (with p5.js) and Java (with Processing) to generative     algorithms like physics simulation, computer vision, and data visualization.
   
 # Games
  * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/flappyBIrd%20JS">flappyBird</a>
