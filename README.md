@@ -7,19 +7,19 @@
     Subjects covered range from the basics of programming languages like JavaScript (with p5.js) and Java (with Processing) to generative     algorithms like physics simulation, computer vision, and data visualization.
   
 # Games
- * flappyBird 
- * MineSweeper
- * SpaceInvador
+ * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/flappyBIrd%20JS">flappyBird</a>
+ * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/MineSweeperJS">MineSweeper</a> 
+ * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/spaceInvador_JS">SpaceInvador</a> 
  
 # Algorithems
-  * Steering behavior - user text input
-  * Traveling Salesperson - probality
-  * Fractal Tree - simple & complex
-  * Fractal recursion visulization
-  * Circle Packing of users image shape input
+  * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/Steering_JS">Steering behavior</a>  - user text input
+  * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/Traveling%20Salesperson%20JS">Traveling Salesperson</a> - probality
+  * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/FractalTree_JS">Fractal Tree</a>  - simple & complex
+  * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/Fractal%20Tree%20Level%202">Fractal recursion</a>  visulization
+  * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/Circle%20Packing%20JS">Circle Packing</a>  of users image shape input
   
 # Physics & Biology
-  * PerlinNoise Flowfield
-  * Lorentz System
-  * Simple mitosis system
+  * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/PerlinNoise%20FlowField_JS">PerlinNoise Flowfield</a> 
+  * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/LorentzSystemJS">Lorentz System</a> 
+  * Simple <a href="https://github.com/MaorAssayag/JavaScript/tree/master/MitosisSystem_JS">mitosis</a> system
   
