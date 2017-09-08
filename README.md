@@ -1,5 +1,5 @@
-# JavaScript 
-  * With <a href="https://p5js.org">p5.js libray</a>
+# About  
+  * JavaScript with <a href="https://p5js.org">p5.js libray</a>
 
   * With the guidance of <a href="https://www.youtube.com/user/shiffman/featured">The Code Train</a> youtube channel
     and the adjacent book - <a href="http://natureofcode.com">THE NATURE OF CODE</a>.
