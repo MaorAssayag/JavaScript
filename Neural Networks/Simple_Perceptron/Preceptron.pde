@@ -5,13 +5,14 @@ int sign(float n){
 
 class Preceptron{
   
-  float[] weights = new float[2];
-  float lr = 0.01; //Learning rate
+  float[] weights;
+  float lr = 0.2; //Learning rate
   
   //Constructor
-  Preceptron(){
+  Preceptron(int n){
+    weights = new float[n];
     // Intialize the weights randomly
-    for (int i=0; i<weights.length;i++){
+    for (int i=0; i<weights.length-1;i++){
       weights[i] = random(-1,1);    
     }
   }
@@ -32,5 +33,11 @@ class Preceptron{
     for (int i=0; i<weights.length; i++){
       weights[i] += error * inputs[i] * lr; 
     } 
+  }
+  
+  float guessY(float x){
+    float m = weights[0]/weights[1];
+    float b = weights[2]/weights[1];
+    return -m * x - b;
   }
 }
