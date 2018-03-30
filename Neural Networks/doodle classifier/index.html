@@ -7,16 +7,28 @@
 
 	<title>doodle classifier</title>
 
-  <script src="libraries/p5.min.js"></script>
-  <script src="libraries/p5.dom.min.js"></script>
-    <script>
-    function setup() {
-        //...
-    }
-    </script>
-	<script src="libraries/loadbinary.js"></script>
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/loadbinary.js"></script>
 	<script src="sketch.js"></script>
 	<script src="libraries/nn.js"></script>
 	<script src="libraries/matrix.js"></script>
-	<style>
+    	<style>
+	body {
+		background-color: #AAA;
+	}
+	button {
+		font-size: 24pt;
+		margin: 10px;
+	}
+	</style>
+
+</head>
+    <body>
+	<button id="train">train</button>
+	<button id="test">test</button>
+	<button id="guess">guess</button>
+	<button id="clear">clear</button>
+</body>
+
 </html>

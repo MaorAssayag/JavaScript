@@ -89,7 +89,7 @@ function setup(){
     prepareData(trains,trains_data, TRAIN);
     
     //Makin the neural network
-    nn = new NeuralNetwork(784,64,3);
+    nn = new NeuralNetwork(784,128,3);
     
     // Training data
     let training = [];
@@ -103,12 +103,23 @@ function setup(){
     testing = testing.concat(trains.testing);
     testing = testing.concat(rainbows.testing); 
 
-   for (let i = 0; i < 5; i++){
+    //Buttons 
+    let epochCounter = 0;
+    let trainButton = select('#train');
+    trainButton.mousePressed(function(){
+        console.log("training..");
         trainEpoch(training);
-        console.log("Epoch : " + (i+1));
-        let precent =  testAll(testing);
-        console.log(precent + "% Correction")
-   }
+        epochCounter++;
+        console.log("Epoch : " + (epochCounter));
+    });
+    
+    let testButton = select('#test');
+    testButton.mousePressed(function(){
+        let precent = testAll(testing);
+        console.log(nf(precent*100,2,2) + " % Correction")
+    });
+    
+    
 }
 
 function showImage(){
