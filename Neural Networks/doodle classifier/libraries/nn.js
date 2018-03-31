@@ -72,7 +72,7 @@ class NeuralNetwork {
     return output.toArray();
   }
 
-  setLearningRate(learning_rate = 0.15) {
+  setLearningRate(learning_rate = 0.2) {
     this.learning_rate = learning_rate;
   }
 

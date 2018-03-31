@@ -5,6 +5,7 @@ const total = 1000; // 1000 images
 const CAT = 0; // catgory to label
 const RAINBOW = 1;
 const TRAIN = 2;
+const CATGORY = ["CAT","RAINBOW","TRAIN"];
 
 let cats_data;
 let rainbows_data;
@@ -46,7 +47,7 @@ function trainEpoch(training){
     for (let i = 0; i < training.length; i++){        
         //Normlize the data of each pixel to [0,1];
         let data = training[i];
-        let inputs = data.map(x => x/255.0);
+        let inputs = Array.from(data).map(x => x/255.0);
         
         let label = training[i].label;
         let targets = [0, 0, 0];
@@ -62,7 +63,7 @@ function testAll(testing){
 
         //Normlize the data of each pixel to [0,1];
         let data = testing[i];
-        let inputs = data.map(x => x/255.0);
+        let inputs = Array.from(data).map(x => x/255.0);
         
         //get the guess from the Neural Network
         let label = testing[i].label;
@@ -81,7 +82,7 @@ function testAll(testing){
 
 function setup(){
     createCanvas(280,280);
-    background(0);
+    background(255);
     
     // Prepare the data
     prepareData(cats,cats_data, CAT);
@@ -89,7 +90,7 @@ function setup(){
     prepareData(trains,trains_data, TRAIN);
     
     //Makin the neural network
-    nn = new NeuralNetwork(784,128,3);
+    nn = new NeuralNetwork(784,64,3);
     
     // Training data
     let training = [];
@@ -116,10 +117,38 @@ function setup(){
     let testButton = select('#test');
     testButton.mousePressed(function(){
         let precent = testAll(testing);
-        console.log(nf(precent*100,2,2) + " % Correction")
+        console.log(nf(precent*100,2,2) + " % Correction");
+    });
+        
+    let guessButton = select('#guess');
+    guessButton.mousePressed(function(){
+        let inputs = [];
+        let img  = get();
+        img.resize(28, 28);
+        img.loadPixels();
+        for (let i = 0; i < len; i++){
+            let bright_level = img.pixels[4*i];
+            inputs[i] = (255 - bright_level) / 255.0;
+        }
+        
+        let guess = nn.predict(inputs);
+        let m = max(guess);
+        let classification = guess.indexOf(m);
+        console.log(CATGORY[classification]);
     });
     
-    
+    let clearButton = select('#clear');
+    clearButton.mousePressed(function(){
+        background(255);
+    });
+}
+
+function draw(){
+    strokeWeight(16);
+    stroke(0);
+    if (mouseIsPressed){
+        line(pmouseX,pmouseY,mouseX,mouseY);
+    }
 }
 
 function showImage(){
