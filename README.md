@@ -9,6 +9,11 @@
 ## Topics
   * Subjects covered range from the basics of programming languages like JavaScript (with p5.js) and Java (with Processing) to generative     algorithms like physics simulation, computer vision, and data visualization.
   
+## Neural Networks [not complete]
+ * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/Neural%20Networks/doodle%20classifier">Doodle Classifier (Supervised learning) </a>
+ * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/Neural%20Networks/doodle%20classifier">Simple Perceptron</a>
+ * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/Neural%20Networks/QuickDrawerData/QucikDrawerData">Data file convertor (npy to bin)</a>
+ 
 ## Games
  * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/flappyBIrd%20JS">flappyBird</a>
  * <a href="https://github.com/MaorAssayag/JavaScript/tree/master/MineSweeperJS">MineSweeper</a> 
